@@ -1,0 +1,25 @@
+{
+  "name": "backendstructurat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app/index.js",
+    "both": "concurrently \"nodemon ./app/index.js\" \"cd frontend && npm start\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.4",
+    "mongoose": "^5.5.9",
+    "mongoose-unique-array": "^0.3.1",
+    "path": "^0.12.7"
+  }
+}
